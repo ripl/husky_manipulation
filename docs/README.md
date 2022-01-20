@@ -58,7 +58,7 @@ That command will make a new moveit package in your src folder that should be re
 *NOTE* - If you are using the custom_husky setup method (indigo), you will have to make a change to your URDF temporarily when running the setup assistant.  Remove the two lines indicated below from your URDF.  These can be added back in once your MoveIt config has been setup
 
 ```
-<xacro:include filename="$(find husky_description)/urdf/husky.urdf.xacro" />
+<xacro:include filename="$(find husky_ur_description)/urdf/husky.urdf.xacro" />
 <xacro:husky_robot />
 ```
 

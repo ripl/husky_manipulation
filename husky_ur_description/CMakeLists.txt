@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(husky_description)
+project(husky_ur_description)
 
 find_package(catkin REQUIRED COMPONENTS roslaunch)
 
 catkin_package()
-catkin_add_env_hooks(50.husky_description
+catkin_add_env_hooks(50.husky_ur_description
   SHELLS sh DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/env-hooks)
 
 #roslaunch_add_file_check(launch)
