@@ -7,7 +7,7 @@
   <xacro:include filename="$(find robotiq_c_model_viz)/urdf/c_model_open.urdf.xacro" />
 
   <!-- RealSense D41X Camera -->
-  <xacro:include filename="$(find husky_ur_description)/urdf/accessories/realsense_d410.urdf.xacro"/>
+  <xacro:include filename="$(find husky_description)/urdf/accessories/realsense_d410.urdf.xacro"/>
 
   <!-- CHANGE BELOW VALUES DURING INTEGRATION -->
   <!-- MUST CHANGE TO UR5, UR3 or UR10 depending on needs -->
@@ -81,12 +81,12 @@
   <link name="sensor_arch_mount_link">
     <visual>
       <geometry>
-        <mesh filename="package://husky_ur_description/meshes/integration_arch.dae" />
+        <mesh filename="package://husky_description/meshes/integration_arch.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://husky_ur_description/meshes/integration_arch.dae" />
+        <mesh filename="package://huskyr_description/meshes/integration_arch.dae" />
       </geometry>
     </collision>
   </link>

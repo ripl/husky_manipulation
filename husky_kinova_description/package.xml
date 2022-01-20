@@ -12,5 +12,5 @@
 
   <exec_depend>kinova_description</exec_depend>
   <exec_depend>kortex_description</exec_depend>
-  <exec_depend>husky_ur_description</exec_depend>
+  <exec_depend>husky_description</exec_depend>
 </package>

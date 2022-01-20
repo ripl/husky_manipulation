@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>husky_ur_description</name>
+  <name>husky_description</name>
   <version>0.2.7</version>
   <description>Clearpath Husky URDF description</description>
 
@@ -12,7 +12,7 @@
 
   <maintainer email="pbovbel@clearpathrobotics.com">Paul Bovbel</maintainer>
 
-  <url type="website">http://ros.org/wiki/husky_ur_description</url>
+  <url type="website">http://ros.org/wiki/husky_description</url>
   <url type="bugtracker">https://github.com/husky/husky/issues</url>
   <url type="repository">https://github.com/husky/husky</url>
 
@@ -23,7 +23,6 @@
   <run_depend>robot_state_publisher</run_depend>
   <run_depend>urdf</run_depend>
   <run_depend>xacro</run_depend>
-  <run_depend>ur_description</run_depend>
   <run_depend>lms1xx</run_depend>
 
 

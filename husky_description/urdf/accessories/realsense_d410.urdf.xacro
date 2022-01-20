@@ -51,7 +51,7 @@ aluminum peripherial evalution case.
       <visual>
         <origin xyz="0.0 0.0 0.0" rpy="1.5708 0.0 1.5708"/>
         <geometry>
-          <mesh filename="package://husky_ur_description/meshes/realsense_d415.dae" />
+          <mesh filename="package://husky_description/meshes/realsense_d415.dae" />
         </geometry>
       </visual>
       <collision>

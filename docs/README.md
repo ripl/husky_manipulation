@@ -14,13 +14,13 @@ git clone https://github.com/husky/husky_manipulation.git --recursive
 In your URDF, make sure to include the husky_manipulation description that you want. For example, if you are using a single UR5, make sure to include the line below in your URDF:
 
 ```
-<xacro:include filename="$(find husky_ur_description)/urdf/husky_ur5_description.urdf.xacro" />
+<xacro:include filename="$(find husky_description)/urdf/husky_ur5_description.urdf.xacro" />
 ```
 
 You will then want to export your URDF as the URDF_EXTRA for your robot.  This will "attach" it to the Husky.  It's convenient to add all of these into a single shell script file that can be sourced later. Make sure to source the initial script as that will make sure to set any other necessary environment variables.
 
 ```
-source $(catkin_find husky_ur_description)/scripts/husky_ur5_envar.sh
+source $(catkin_find husky_description)/scripts/husky_ur5_envar.sh
 export HUSKY_URDF_EXTRAS=$(catkin_find your_description_package urdf/your_description.urdf.xacro --first-only)
 ```
 
@@ -58,7 +58,7 @@ That command will make a new moveit package in your src folder that should be re
 *NOTE* - If you are using the custom_husky setup method (indigo), you will have to make a change to your URDF temporarily when running the setup assistant.  Remove the two lines indicated below from your URDF.  These can be added back in once your MoveIt config has been setup
 
 ```
-<xacro:include filename="$(find husky_ur_description)/urdf/husky.urdf.xacro" />
+<xacro:include filename="$(find husky_description)/urdf/husky.urdf.xacro" />
 <xacro:husky_robot />
 ```
 
