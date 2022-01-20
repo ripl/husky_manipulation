@@ -14,6 +14,9 @@
   <exec_depend>husky_dual_ur_moveit_config</exec_depend>
   <exec_depend>husky_ur_bringup</exec_depend>
   <exec_depend>husky_ur_moveit_config</exec_depend>
+  <exec_depend>robotiq_c_gripper</exec_depend>
+  <exec_depend>robotiq_s_gripper</exec_depend>
+  <exec_depend>robotiq_force_torque_sensor</exec_depend>
 
   <export>
     <metapackage />
