@@ -24,6 +24,8 @@
   <run_depend>urdf</run_depend>
   <run_depend>xacro</run_depend>
   <run_depend>lms1xx</run_depend>
+  <exec_depend>ur_description</exec_depend>
+  <!-- <exec_depend>husky_description</exec_depend> -->
 
 
   <export>
